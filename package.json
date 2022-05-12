@@ -1,0 +1,24 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "Learning node.js by reading the documentation",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "html-pdf": "^3.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.16.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "nodemon": "^2.0.15"
+  }
+}
