@@ -3,7 +3,10 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 
 const client = new Client({
   authStrategy: new LocalAuth(),
-  puppeteer: { headless: false, executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" }
+  puppeteer: {
+    headless:false,
+    args: ["--no-sandbox"]
+  }
 });
 
 client.on('auth_failure', message => {    
@@ -60,4 +63,7 @@ client.on('message', async message => {
 
 });
 
-client.initialize();
+client.initialize()
+.catch(err => {
+  console.log(err);
+});
