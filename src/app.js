@@ -1,11 +1,15 @@
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
+console.log("-------------------- HERE --------------------");
 
 const client = new Client({
-  authStrategy: new LocalAuth()
+  authStrategy: new LocalAuth(),
+  puppeteer: {
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  }
 });
 
-client.on('auth_failure', message => {    
+client.on('auth_failure', message => {
   console.log("Auth Error!");
   console.log(message);
 });
@@ -59,4 +63,7 @@ client.on('message', async message => {
 
 });
 
-client.initialize();
+client.initialize()
+.catch(err => {
+  console.log(err);
+});
