@@ -1,6 +1,3 @@
-2022/05/12-16:50:36.753 52c0 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\auth-session\session\Default\Local Storage\leveldb/MANIFEST-000001
-2022/05/12-16:50:36.754 52c0 Recovering log #3
-2022/05/12-16:50:36.754 52c0 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\auth-session\session\Default\Local Storage\leveldb/000003.log 
-2022/05/12-16:52:37.451 55f4 Level-0 table #5: started
-2022/05/12-16:52:37.459 55f4 Level-0 table #5: 27715 bytes OK
-2022/05/12-16:52:37.460 55f4 Delete type=0 #3
+2022/05/12-17:08:34.533 47a0 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\auth-session\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/05/12-17:08:34.533 47a0 Recovering log #4
+2022/05/12-17:08:34.534 47a0 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\auth-session\session\Default\Local Storage\leveldb/000004.log 

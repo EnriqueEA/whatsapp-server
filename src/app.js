@@ -52,9 +52,11 @@ client.on('message', async message => {
         client.sendMessage(from, 'Tu lo eres');
       }
       break;
-  
     default:
-      break;
+    if (body.includes("oe")) {
+      client.sendMessage(from, 'Dímelo mi kong!');
+    }
+    break;
   }
 	
   console.log(message);
