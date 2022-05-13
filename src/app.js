@@ -69,7 +69,7 @@ client.on('message', async message => {
 
   }
 	
-  console.log(message);
+  // console.log(message);
 
 });
 
