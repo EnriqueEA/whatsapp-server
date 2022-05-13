@@ -2,9 +2,7 @@ const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 
 const client = new Client({
-  authStrategy: new LocalAuth({
-    dataPath: './auth-session',
-  })
+  authStrategy: new LocalAuth()
 });
 
 client.on('auth_failure', message => {    
