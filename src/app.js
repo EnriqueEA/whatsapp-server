@@ -3,7 +3,7 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 
 const client = new Client({
   authStrategy: new LocalAuth(),
-  puppeteer: { headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] }
+  puppeteer: { headless: false, executablePath: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" }
 });
 
 client.on('auth_failure', message => {    
