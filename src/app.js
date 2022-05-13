@@ -1,8 +1,6 @@
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 
-
-// Use the saved values
 const client = new Client({
   authStrategy: new LocalAuth({
     dataPath: './auth-session',
