@@ -1,7 +1,6 @@
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 console.log("-------------------- HERE --------------------");
-
 let client;
 
 try {
@@ -9,11 +8,7 @@ try {
   client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-      puppeteer: {
-    headless: false,
-    executablePath:
-      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
-  },
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
     }
   });
 
