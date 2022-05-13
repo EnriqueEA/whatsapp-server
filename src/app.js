@@ -9,7 +9,11 @@ try {
   client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      puppeteer: {
+    headless: false,
+    executablePath:
+      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+  },
     }
   });
 
