@@ -1,2 +1,3 @@
-2022/05/13-15:53:27.952 392c Creating DB C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Local Storage\leveldb since it was missing.
-2022/05/13-15:53:28.967 392c Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/05/15-10:16:14.885 1120 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/05/15-10:16:14.926 1120 Recovering log #3
+2022/05/15-10:16:14.926 1120 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Local Storage\leveldb/000003.log 
