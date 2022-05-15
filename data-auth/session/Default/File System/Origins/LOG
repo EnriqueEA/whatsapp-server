@@ -1,3 +1,2 @@
-2022/05/15-10:16:17.268 4150 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\File System\Origins/MANIFEST-000001
-2022/05/15-10:16:17.276 4150 Recovering log #3
-2022/05/15-10:16:17.276 4150 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\File System\Origins/000003.log 
+2022/05/15-10:39:05.438 3ee4 Creating DB C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\File System\Origins since it was missing.
+2022/05/15-10:39:05.508 3ee4 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\File System\Origins/MANIFEST-000001

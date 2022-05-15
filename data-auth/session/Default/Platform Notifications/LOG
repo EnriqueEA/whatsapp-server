@@ -1,3 +1,2 @@
-2022/05/15-10:16:14.881 1f50 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Platform Notifications/MANIFEST-000001
-2022/05/15-10:16:14.886 1f50 Recovering log #3
-2022/05/15-10:16:14.887 1f50 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Platform Notifications/000003.log 
+2022/05/15-10:39:50.824 3ee4 Creating DB C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Platform Notifications since it was missing.
+2022/05/15-10:39:50.831 3ee4 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Platform Notifications/MANIFEST-000001

@@ -1,3 +1,2 @@
-2022/05/15-10:16:14.882 4150 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Service Worker\Database/MANIFEST-000001
-2022/05/15-10:16:14.923 4150 Recovering log #3
-2022/05/15-10:16:14.924 4150 Reusing old log C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Service Worker\Database/000003.log 
+2022/05/15-10:39:05.133 3ee4 Creating DB C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Service Worker\Database since it was missing.
+2022/05/15-10:39:05.251 3ee4 Reusing MANIFEST C:\Users\gabyg\Desktop\LEARNING\node\data-auth\session\Default\Service Worker\Database/MANIFEST-000001
